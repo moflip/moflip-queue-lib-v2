@@ -1,3 +1,4 @@
+#![allow(unused_imports)]
 use ::redis::FromRedisValue;
 use r2d2_redis::{
     r2d2,
