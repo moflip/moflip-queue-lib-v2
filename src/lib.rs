@@ -1,5 +1,8 @@
 pub mod redis_db;
 pub mod queue;
+pub mod query;
+
+pub use anyhow::Result as AnyResult;
 
 pub mod scheduler {
     use crate::redis_db::R2D2Pool;
